@@ -94,8 +94,8 @@ $tdibayar = $tharga - $tpot;
             </tr>
             <tr>
                 <td colspan="3" align="right">
-                    Diskon <?php echo "( $diskon % )"; ?></td>
-                <td align="right"><?php echo $tdiskon; ?></td>
+                    Diskon <?php echo "( $pot % )"; ?></td>
+                <td align="right"><?php echo $tpot; ?></td>
             </tr>
             <tr>
                 <td colspan="3" align="right">Jumlah harus dibayar</td>

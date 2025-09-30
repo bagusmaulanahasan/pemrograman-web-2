@@ -6,7 +6,7 @@
     $d= $c1 + 1 ;
     echo "$d <BR>";
     // nilai $d 35, 
-    $e = "Number";
+    $e = "Number ";
     $f = $e.$d;
     echo $f;
     //nilai $f menjadi Number13, a kombinasi $e dan $f

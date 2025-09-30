@@ -1,8 +1,8 @@
 <?php
-	$A = 123 ; // variable global
+	$A = 123 ;
 	function Test() {
-		$A = "Test"; // variable local	
-		echo "variabel A berisi = $A \n";
+		$A = "Test";
+		echo "variabel A berisi = $A <br> \n";
 	}
 	Test();
 	echo "A diluar fungsi berisi= $A \n";

@@ -44,18 +44,15 @@
         $uts = $_POST['uts'];
         $uas = $_POST['uas'];
 
-        // Hitung nilai dengan bobot
         $nilaiKehadiran = ($kehadiran / 18) * 100; 
         $na = ($nilaiKehadiran * 0.10) + ($tugas * 0.20) + ($uts * 0.30) + ($uas * 0.40);
 
-        // Tentukan Grade
         if ($na >= 80) $grade = "A";
         else if ($na >= 70) $grade = "B";
         else if ($na >= 60) $grade = "C";
         else if ($na >= 50) $grade = "D";
         else $grade = "E";
 
-        // Tentukan Keterangan Lulus
         $ket = ($na > 65) ? "Lulus" : "Tidak Lulus";
     }
     ?>
@@ -64,8 +61,8 @@
         <div class="row-top">
             <pre>
 <h2>NILAI AKADEMIK <?= $matkul ?></h2>
-                <span>Nama : <?= $nama ?></span>
-                <span>NIM  : <?= $nim ?></span>
+            <span>Nama : <?= $nama ?></span>
+            <span>NIM  : <?= $nim ?></span>
             </pre>
         </div>
         <div class="row-bot">
