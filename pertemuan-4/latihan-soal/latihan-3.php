@@ -10,10 +10,10 @@
 <body>
     <form action="latihan-3.php" method="post">
         <label>Nilai Awal : </label>
-        <input type="number" name="n_awal">
+        <input type="number" name="n_awal"> &nbsp; <?= $_POST['n_awal'] ?>
         <br><br>
         <label>Nilai Akhir : </label>
-        <input type="number" name="n_akhir">
+        <input type="number" name="n_akhir"> &nbsp; <?= $_POST['n_akhir'] ?>
         <br><br>
         <button type="submit">Hitung</button>
     </form>
