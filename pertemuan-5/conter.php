@@ -38,8 +38,8 @@
 
     // Tampilkan ke pengguna
     echo "Anda pengunjung ke-$pencacah1<br>\n";
-    echo "Tanggal kunjungan: $tanggal<br>\n";
-    echo "Alamat IP Anda: $ip<br>\n";
+    // echo "Tanggal kunjungan: $tanggal<br>\n";
+    // echo "Alamat IP Anda: $ip<br>\n";
 ?>
 
 </body>
