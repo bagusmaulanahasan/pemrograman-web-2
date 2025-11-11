@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <! Input Bilangan>
+    <!-- <! Input Bilangan> -->
         <form method="post">
             Masukkan Bilangan Pertama : <br>
             <input type="text" name="A1" size=10> <br>
@@ -13,7 +13,7 @@
             <input type="text" name="B1" size=10> <br>
             <input type="submit" value="hitung">
         </form>
-        <!mengirim 2 buah bilangan yang diinput>
+        <!-- <!mengirim 2 buah bilangan yang diinput> -->
             <?php
             if (isset($_POST['A1'])) {
                 $A1 = (int)htmlspecialchars($_POST["A1"]);
