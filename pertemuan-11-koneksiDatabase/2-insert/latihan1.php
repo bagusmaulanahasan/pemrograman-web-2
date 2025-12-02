@@ -1,5 +1,5 @@
 <?php
-$koneksi=mysqli_connect("localhost","root","0320","db_latihan11_web2");
+$con=mysqli_connect("localhost","root","0320","db_latihan11_web2");
 if (!$con) {
     die('Could not connect: ' . mysqli_connect_error());
 }
